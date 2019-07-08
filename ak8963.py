@@ -31,7 +31,7 @@ __version__ = "0.2.1"
 import ustruct
 import utime
 from machine import I2C, Pin
-from micropython import const
+#from micropython import const
 # pylint: enable=import-error
 
 _WIA = const(0x00)

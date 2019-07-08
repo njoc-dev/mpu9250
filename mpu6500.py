@@ -30,7 +30,7 @@ __version__ = "0.3.0-dev"
 import ustruct
 import utime
 from machine import I2C, Pin
-from micropython import const
+#from micropython import const
 # pylint: enable=import-error
 
 _GYRO_CONFIG = const(0x1b)
